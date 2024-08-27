@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>registration form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+        <meta Charset="utf-8">
+        <meta name="description" content="registration form for software trainnes.">
+        <meta name="keywords" content="software training, full stuck development, backend development">
+
+    </head>
+<body>
+    <form action="submit_form.php" method="post">
+        <label for="username"> username *: </label>
+        <input type="text" name="username" id="username" placeholder ="Goytom" pattern="[a-zA-Z0-9]{1,50}">
+        <label for="email"> email *:</label>
+        <input type="email" name="email" id="email" placeholder ="goytomtuemay@gmail.com" required>
+        <label for="male"> male:</label>
+        <input type="radio" name="male" id="male">
+        <label for="female"> femal: </label>
+        <input type="radio" name="female" id="female">
+        <label for="phone"> phone *: </label>
+        <input type="tel" name="phone" id="phone" required pattern="[0-9]{10}">
+        <label for="message"> message: </label>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit" name="submit" id="submit"> submit</button>
+</form>
+
+</body>
+</html>
