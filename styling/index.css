@@ -1,0 +1,19 @@
+.headers{
+    background-color: blue;
+    color:white;
+}
+.green-text{
+    color:green;
+} 
+.highlight{
+    background-color: red;
+}
+.bg-color{
+    background-color: green;
+    color:white;
+    background-image: url('../fish3.jpg');
+    height:200px;
+}
+.red-text{
+  color:red;
+}
